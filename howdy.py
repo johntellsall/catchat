@@ -2,7 +2,7 @@
    
 def main():
     for _ in range(10):
-        print("John is great!", end=' ')
+        print("Jake loves beer!", end=' ')
     print()
 
 
