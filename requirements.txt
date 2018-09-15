@@ -5,3 +5,4 @@ django-pdb
 ipdb
 pytest-django
 autopep8
+pytest
