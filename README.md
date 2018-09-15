@@ -10,4 +10,4 @@
     docker-compose build
     docker-compose run web bash
     # inside container:
-    ./manage.py test
+    pytest
