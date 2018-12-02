@@ -1,5 +1,10 @@
 # CatChat!
 
+# Firebase
+
+## TODO
+*  https://github.com/firebase/quickstart-python
+
 # Run
 
     docker-compose build
