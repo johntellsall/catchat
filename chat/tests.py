@@ -10,7 +10,7 @@ from .models import Question
 
 
 def database_missing():
-    return hasattr(os.environ, "CI")  # TODO make CI have database & run tests
+    return "CI" in os.environ  # TODO make CI have database & run tests
 
 
 def create_question(question_text, days):
