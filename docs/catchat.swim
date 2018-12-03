@@ -1,0 +1,15 @@
+Title: Cat Chat
+
+_: **User Setup**
+
+User <--> Firebase: status: `initial`
+User -> Django: front photo
+User -> Django: side photo
+Django -> Firebase: set status pending
+User <--> Firebase: status: `pending`
+
+_: **Artist does rendering**
+
+Artist -> Django: rendering
+Django -> Firebase: set status done
+Firebase <--> User: status: `ready to chat!`
