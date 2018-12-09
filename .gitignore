@@ -1,3 +1,8 @@
+*.sublime*
+serviceAccountKey.json
+venv-macos
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -56,12 +61,6 @@ coverage.xml
 local_settings.py
 db.sqlite3
 
-# Flask stuff:
-instance/
-.webassets-cache
-
-# Scrapy stuff:
-.scrapy
 
 # Sphinx documentation
 docs/_build/
@@ -74,12 +73,6 @@ target/
 
 # pyenv
 .python-version
-
-# celery beat schedule file
-celerybeat-schedule
-
-# SageMath parsed files
-*.sage.py
 
 # Environments
 .env
@@ -102,5 +95,3 @@ venv.bak/
 
 # mypy
 .mypy_cache/
-*.sublime*
-serviceAccountKey.json
