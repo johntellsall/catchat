@@ -8,3 +8,4 @@ django-pdb
 ipdb
 pytest
 pytest-django
+boto3==1.4.0
